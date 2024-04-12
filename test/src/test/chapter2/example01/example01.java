@@ -33,6 +33,13 @@ public class example01 {
 		System.out.println(boolValue1);
 		System.out.println(boolValue2);
 		
+		byte byteValue = 10; //10만 보면 int라서 byte에 들어갈 수 없다.
+		
+		long longValue1 = 10;
+		long longValue2 = 10000000000L; //int는 21억까진데 L을 적어줘야함 
+		
+		float f1 = 1.5f; // double타입이라서 
+
 		
 	}
 }
