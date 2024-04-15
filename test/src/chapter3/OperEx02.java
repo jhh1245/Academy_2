@@ -15,6 +15,7 @@ public class OperEx02 {
 		System.out.println("a + b : " + a + b); // 문자열 
 		System.out.println(a + b + (" : a + b")); //변수 먼저 붙어서 덧셈
 		System.out.println((a + b) + (" : a + b")); 
+		
 	}
 
 }
