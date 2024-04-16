@@ -1,4 +1,4 @@
-package test.example03;
+package test.chapter2.example03;
 
 public class Casting {
 
