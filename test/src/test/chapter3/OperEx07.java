@@ -1,9 +1,10 @@
-package chapter3;
+package test.chapter3;
 
 public class OperEx07 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		/* 2, 8, 16진수 만들기 */ 
 		
 		int num = 172;
 		int m = 0;
