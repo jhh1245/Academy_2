@@ -1,4 +1,4 @@
-package test.chapter2.example02;
+package study.chapter2.example02;
 
 public class PromotionExample {
 

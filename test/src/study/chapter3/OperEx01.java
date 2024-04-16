@@ -1,4 +1,4 @@
-package test.chapter3;
+package study.chapter3;
 
 public class OperEx01 {
 
