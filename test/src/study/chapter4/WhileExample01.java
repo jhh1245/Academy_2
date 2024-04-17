@@ -26,14 +26,12 @@ public class WhileExample01 {
 //		int i = 2;
 //		int j = 1;
 //		
-//		while(i < 10) {
-//			j = 1;
-//			
+//		while(i < 10) {			
 //			while(j < 10) {
 //				System.out.println(i + " * " + j + " = " + i * j);
 //				j++;
 //			}
-//			
+//			j = 1;
 //			System.out.println();
 //			
 //			i++;
@@ -54,6 +52,11 @@ public class WhileExample01 {
 		
 		System.out.println(sum1);
 		System.out.println(sum2);
+		
+		do {
+			System.out.println(i);
+		} while (i < 3);
+		System.out.println("do while 종료");
 		
 	}
 
