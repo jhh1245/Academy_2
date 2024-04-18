@@ -20,11 +20,10 @@ public class TwoDimensionalArray01 {
 				System.out.println(arr[i][j]);
 		}
 		
-		
 		System.out.println("arr.length : " + arr.length);
 		System.out.println("arr[0].length : " + arr[0].length);
 		
-//		
+	
 		System.out.print("향상된 for문 : ");
 		for(int[] a : arr) {
 			for(int b : a) {
