@@ -39,14 +39,36 @@ public class ScannerExam01 {
 //			System.out.println("두 수는 같습니다.");
 //		}
 		
+//		Scanner scanner = new Scanner(System.in);
+//		
+//		System.out.println("환전하고 싶은 원화를 입력하시오 : ");
+//		int price = scanner.nextInt();
+//		
+//		double price2 = price / 1400.0;
+//		
+//		System.out.println(price + "원 환전 액수 = $" + price2);
+		
+		
+		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("환전하고 싶은 원화를 입력하시오 : ");
-		int price = scanner.nextInt();
+		while(true) {
+			System.out.println("환전하고 싶은 원화를 입력하시오 : ");
+			
+			int price = scanner.nextInt();
+			if(price < 10000) {
+				System.out.println("최소 환전 금액은 1만원 입니다.");
+				continue;
+			}
+			
+			double price2 = price / 1400.0;
+			System.out.println(price + "원 환전 액수 = $" + price2);
+			break;
+		}
 		
-		double price2 = price / 1400.0;
 		
-		System.out.println(price + "원 환전 액수 = $" + price2);
+		
+		
 		
 	}
 
