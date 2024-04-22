@@ -1,4 +1,4 @@
-package study.chapter6;
+package study.chapter6.Object;
 
 public class StudentName {
 	public static void main(String[] args) {
