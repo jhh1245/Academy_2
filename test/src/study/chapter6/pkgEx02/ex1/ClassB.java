@@ -7,4 +7,5 @@ public class ClassB { //public
 	// ClassA a3 = new ClassA("10"); // private (ClassA와 같은 클래스 내에서만 호출가능) 
 	
 	
+	
 }

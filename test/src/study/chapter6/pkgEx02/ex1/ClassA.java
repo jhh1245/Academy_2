@@ -6,6 +6,8 @@ public class ClassA { 			  // public
 	ClassA a2 = new ClassA(10.0); // default 
 	ClassA a3 = new ClassA("10"); // private
 	
+	
+	
 	public ClassA(int a) { 		  // public
 	}
 	

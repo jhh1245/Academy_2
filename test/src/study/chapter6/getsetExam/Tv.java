@@ -5,15 +5,15 @@ public class Tv {
 	// 싱글톤 
 	private static Tv tv = new Tv(); // 객체 생성. 동일한 클래스에는 접근 가능 
 	
-	private Tv(){ // 기본생성자 기본값은 public이지만 private로 외부 접근 차단   
+	private Tv(){ //생성자 private로 외부 접근 차단   
 	}
 	
 	static Tv getInstance() { // 리턴타입은 이 클래스 참조타입
 		return tv; // 객체를 리턴 
 	}
 	
-	private int channel;
-	private int volume;
+	private int channel = 98;
+	private int volume = 10;
 	private int lastVolume;
 	private boolean mute;
 	private boolean power;
@@ -30,6 +30,15 @@ public class Tv {
 		} else {
 			this.channel++;
 		}
+		System.out.println("현재 채널은 " + this.channel + "번 입니다.");
+		
+		/* if(channel > 0 && channel < 100){
+		 * 		channel++;
+		 * } else{ 
+		 * 		channel = 1;
+		 * }
+		 * 
+		 */
 	}
 	
 	public void channelDown() {
@@ -37,7 +46,8 @@ public class Tv {
 			this.channel = 100;
 		} else {
 			this.channel--;
-		}
+		} 
+		System.out.println("현재 채널은 " + this.channel + "번 입니다.");
 	}
 	
 	
@@ -47,6 +57,7 @@ public class Tv {
 		} else {
 			System.out.println("입력하신 " + num + "번은 없는 채널입니다.");
 		}
+		System.out.println("현재 채널은 " + this.channel + "번 입니다."); //this 확인 필수!! 매개변수와 구분해야된다. 
 	}
 
 
