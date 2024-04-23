@@ -1,4 +1,4 @@
-package study.chapter7.ex8;
+package study.chapter7Overriding.ex8;
 
 public class SmartTv extends Tv{
 	boolean caption; // 자막 on off

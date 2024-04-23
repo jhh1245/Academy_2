@@ -1,4 +1,4 @@
-package study.chapter7.ex7;
+package study.chapter7Overriding.ex7;
 
 public class Parent {
 	int x;

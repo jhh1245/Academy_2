@@ -1,4 +1,4 @@
-package study.chapter7.ex9;
+package study.chapter7Overriding.ex9;
 
 public class SuperAirplane extends Airplane{
 

@@ -1,4 +1,4 @@
-package study.chapter7.ex6;
+package study.chapter7Overriding.ex6;
 
 public class Jean extends Pants{
 

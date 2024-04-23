@@ -1,4 +1,4 @@
-package study.chapter7.ex5;
+package study.chapter7Overriding.ex5;
 
 public class ComputerMain {
 
