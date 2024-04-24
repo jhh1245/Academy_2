@@ -1,10 +1,10 @@
 package study.chapter7Poly.ex7;
 
 public class Buyer { //구매자
-	int money = 1000;       // 보유 금액 
-	int bonusPoint = 0;     // 현재 보너스 포인트 
+	public int money = 1000;       // 보유 금액 
+	public int bonusPoint = 0;     // 현재 보너스 포인트 
 	
-	void buy(Product p) {		
+	public void buy(Product p) {		
 		if(money < p.price) {
 			System.out.println("잔액이 부족하여 구매할 수 없습니다. ");
 			return ; // 메소드 종료 

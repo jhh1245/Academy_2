@@ -1,4 +1,4 @@
-package study.chapter7Instanceof.ex1;
+package study.chapter7Casting.ex10;
 
 public class Child extends Parent{
 
