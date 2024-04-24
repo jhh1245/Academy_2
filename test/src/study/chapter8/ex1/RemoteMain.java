@@ -8,7 +8,8 @@ public class RemoteMain {
 		rc = new Television();
 		rc.turnOn();
 		rc.turnOff();
-		rc.setVolume(100);
+		rc.setVolume(20);
+		
 		rc.getVolume();
 		// System.out.println(rc.volume); // 못함 
 		System.out.println();
@@ -16,7 +17,7 @@ public class RemoteMain {
 		rc = new Audio();
 		rc.turnOn();
 		rc.turnOff();
-		rc.setVolume(-5);
+		rc.setVolume(30);
 		rc.getVolume();
 		System.out.println();
 		

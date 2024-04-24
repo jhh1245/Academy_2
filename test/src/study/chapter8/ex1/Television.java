@@ -24,14 +24,12 @@ public class Television implements RemoteController{
 			this.volume = RemoteController.MIN_VOLUME;
 		} else {
 			this.volume = volume;
-			
-			// @@ 여긴 this 안쓰면 왜 인터페이쓰거가져오나? 
+			// 여기에 this를 안쓰면? 매개변수 volume에 volume 즉 자기자신에게 할당한거라 의미 없음 그래서 0 
 		}
 	}
 	
 	@Override
 	public void getVolume() {
 		System.out.println("현재 TV 볼륨 : " + this.volume);
-		// @@ 여기서 this 쓰나 안쓰나 똑같?
 	} 
 }

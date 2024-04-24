@@ -7,8 +7,8 @@ public interface RemoteController {
 	// 상수 
 	int MAX_VOLUME = 50;
 	int MIN_VOLUME = 0;
-	// int volume = 0;
-	// @@ 여기 추가하면 ? -> 볼륨은 0이 되어야 할 것 같은데 텔레비전쪽에서 this.volume = volume 잘 나오는듯??  
+	int volume = 110;
+  
 	
 	// 추상 메서드 (public abstract가 컴파일 과정에서 자동으로 추가)  
 	void turnOn();
