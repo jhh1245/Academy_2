@@ -1,4 +1,4 @@
-package study.chapter8.ex1;
+package study.chapter8.ex4;
 
 public interface RemoteController {
 	// 상수 (public static final이 컴파일 과정에서 자동으로 추가) 상수는 무조건 값이 있어야 한다. 
