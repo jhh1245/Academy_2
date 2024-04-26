@@ -26,20 +26,25 @@ public class ObjectExample {
 //		System.out.println(result22);
 //		System.out.println(result33);
 		
+		
+		
+		
 		Object obj1 = new Object(); 
-		Object obj2 = obj1; // Object 이거나 Object 상속한 애들
+		Object obj2 = obj1; // 주소값 대입 
 		
 		boolean result111 = obj1 == obj2; // 주소
-		boolean result222 = obj1.equals(obj2); // 주소
-		System.out.println(result111);
-		System.out.println(result222);
+		System.out.println(result111); // true
+		
+		boolean result222 = obj1.equals(obj2); // 주소 
+		System.out.println(result222); // true
 		
 		Object obj3 = new Object();
 		Object obj4 = new Object();
 		
-		boolean result333 = obj3 == obj4; // false 주소 
-		System.out.println(result333);
-		boolean result444 = obj3.equals(obj4); // false !! 왜냐면 
+		boolean result333 = obj3 == obj4; // 주소 
+		System.out.println(result333); // false
+		
+		boolean result444 = obj3.equals(obj4); // false !! 왜냐면 주소값 비교니까 
 		System.out.println(result444);
 		
 		
