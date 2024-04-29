@@ -14,11 +14,6 @@ public class CharAtExam {
 
 		
 		String strArr[] = {"123456-1234567", "123456-2234567", "123456-3234567", "123456-4234567", "123456-5234567"};
-//		String ssn1 = "123456-1234567";
-//		String ssn2 = "123456-2234567";
-//		String ssn3 = "123456-3234567";
-//		String ssn4 = "123456-4234567";
-//		String ssn5 = "123456-5234567";
 		char ch;
 		for(int i = 0 ; i < strArr.length; i++) {
 			ch = strArr[i].charAt(7);
@@ -47,6 +42,8 @@ public class CharAtExam {
 //		default:
 //			System.out.println("잘못입력하셨습니다.");
 //		}
+		
+		
 	}
 
 }
