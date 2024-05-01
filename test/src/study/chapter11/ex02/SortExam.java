@@ -1,4 +1,4 @@
-package study.chapter10.ex09;
+package study.chapter11.ex02;
 
 import java.util.Arrays;
 
@@ -12,7 +12,16 @@ public class SortExam {
 		System.out.println(Arrays.toString(scores));
 		
 		String[] names= {"jessica", "kelly", "grace", "esther", "angella", "lisa"};
-		System.out.println(Arrays.toString(names));	
+		System.out.println(Arrays.toString(names));
+		Arrays.sort(names);
+		System.out.println(Arrays.toString(names));
+		
+		
+		String[] kNames= {"유재석", "이광수","강호동"};
+		System.out.println(Arrays.toString(kNames));
+		Arrays.sort(kNames);
+		System.out.println(Arrays.toString(kNames));
 	}
 
 }
+

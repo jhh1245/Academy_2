@@ -1,4 +1,4 @@
-package study.chapter10.ex09;
+package study.chapter11.ex00;
 
 public class LengthExample {
 

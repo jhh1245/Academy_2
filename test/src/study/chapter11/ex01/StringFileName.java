@@ -1,4 +1,4 @@
-package study.chapter10.ex09;
+package study.chapter11.ex01;
 
 // file필드에 확장자가 .jpg or .png파일만 업로드 되어야 한다.
 // 업로드 성공시 : 성공 메시지 + 업로드된 파일명 출력 
