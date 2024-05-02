@@ -1,4 +1,4 @@
-package study.chapter6.Object;
+package study.chapter06.Object;
 
 public class Korean {
 	String nation; //국적 

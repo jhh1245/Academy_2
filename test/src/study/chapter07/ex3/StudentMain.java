@@ -1,4 +1,4 @@
-package study.chapter7.ex3;
+package study.chapter07.ex3;
 
 public class StudentMain {
 

@@ -1,6 +1,6 @@
-package study.chapter6.methodExam;
+package study.chapter06.methodExam;
 
-import study.chapter6.methodExam.Tv;
+import study.chapter06.methodExam.Tv;
 
 public class TvMain2 {
 

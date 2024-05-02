@@ -1,4 +1,4 @@
-package study.chapter6.pkgEx.ex1;
+package study.chapter06.pkgEx.ex1;
 
 class ClassA { //default 접근 제한자 (같은 패키지만 접근 가능) 
 	ClassB b; 

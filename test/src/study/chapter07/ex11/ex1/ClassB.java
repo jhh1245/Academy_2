@@ -1,4 +1,4 @@
-package study.chapter7.ex11.ex1;
+package study.chapter07.ex11.ex1;
 
 public class ClassB {
 	public void methodB() {

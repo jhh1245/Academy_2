@@ -1,4 +1,4 @@
-package study.chapter6.staticExam;
+package study.chapter06.staticExam;
 
 public class Car {
 

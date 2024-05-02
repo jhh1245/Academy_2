@@ -1,4 +1,4 @@
-package study.chapter6.Object;
+package study.chapter06.Object;
 
 public class Car {
 	int speed; // 필드 또는 멤버 변수 

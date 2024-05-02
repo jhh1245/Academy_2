@@ -1,6 +1,6 @@
-package study.chapter7.ex11.ex2;
+package study.chapter07.ex11.ex2;
 
-import study.chapter7.ex11.ex1.ClassA;
+import study.chapter07.ex11.ex1.ClassA;
 
 public class ClassD extends ClassA{
 	ClassD(){ // 생성자 

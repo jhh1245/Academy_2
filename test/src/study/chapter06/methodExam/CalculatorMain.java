@@ -1,4 +1,4 @@
-package study.chapter6.methodExam;
+package study.chapter06.methodExam;
 
 public class CalculatorMain {
 

@@ -1,4 +1,4 @@
-package study.chapter6.thisExam;
+package study.chapter06.thisExam;
 
 public class CarMain {
 

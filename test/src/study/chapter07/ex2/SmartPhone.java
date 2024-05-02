@@ -1,4 +1,4 @@
-package study.chapter7.ex2;
+package study.chapter07.ex2;
 
 public class SmartPhone extends Cellphone {
 	int channel; 

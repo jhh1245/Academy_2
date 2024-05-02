@@ -1,4 +1,4 @@
-package study.chapter7.ex4;
+package study.chapter07.ex4;
 
 public class Child extends Parent{
 	int age;

@@ -1,4 +1,4 @@
-package study.chapter3;
+package study.chapter03;
 
 public class Test02 {
 

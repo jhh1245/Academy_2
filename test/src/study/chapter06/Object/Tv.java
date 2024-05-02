@@ -1,4 +1,4 @@
-package study.chapter6.Object;
+package study.chapter06.Object;
 
 public class Tv {	
 	String brand;

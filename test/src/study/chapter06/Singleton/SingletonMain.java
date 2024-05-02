@@ -1,4 +1,4 @@
-package study.chapter6.Singleton;
+package study.chapter06.Singleton;
 
 public class SingletonMain {
 

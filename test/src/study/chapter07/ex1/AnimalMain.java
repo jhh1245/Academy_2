@@ -1,4 +1,4 @@
-package study.chapter7.ex1;
+package study.chapter07.ex1;
 
 public class AnimalMain {
 

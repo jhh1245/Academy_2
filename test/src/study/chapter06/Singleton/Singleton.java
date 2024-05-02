@@ -1,4 +1,4 @@
-package study.chapter6.Singleton;
+package study.chapter06.Singleton;
 
 public class Singleton {
 	private static Singleton sgt = new Singleton(); // 객체 생성. 동일한 클래스에는 접근 가능 

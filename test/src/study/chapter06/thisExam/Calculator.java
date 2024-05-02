@@ -1,4 +1,4 @@
-package study.chapter6.thisExam;
+package study.chapter06.thisExam;
 
 public class Calculator {
 	// 인스턴스 필드 -> 객체가 필요하다. 

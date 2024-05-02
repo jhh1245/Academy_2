@@ -1,6 +1,6 @@
-package study.chapter6.methodExam;
+package study.chapter06.methodExam;
 
-import study.chapter6.methodExam.Test;
+import study.chapter06.methodExam.Test;
 
 public class TestMain {
 

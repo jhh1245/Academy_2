@@ -1,4 +1,4 @@
-package study.chapter6.methodExam;
+package study.chapter06.methodExam;
 
 public class Cal {
 	// 메서드 오버라이딩 //

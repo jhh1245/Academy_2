@@ -1,5 +1,0 @@
-package study.chapter7Poly.ex1;
-
-public class ClassC extends ClassA {
-
-}

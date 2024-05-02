@@ -1,4 +1,4 @@
-package study.chapter5;
+package study.chapter05;
 
 import java.util.Scanner;
 

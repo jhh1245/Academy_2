@@ -1,4 +1,4 @@
-package study.chapter6.pkgEx03.ex1;
+package study.chapter06.pkgEx03.ex1;
 
 public class ClassB { //public
 	public ClassB() {

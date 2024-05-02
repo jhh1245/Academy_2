@@ -1,4 +1,4 @@
-package study.chapter6.finalEx;
+package study.chapter06.finalEx;
 
 public class Person {
 	final String nation = "Korean";

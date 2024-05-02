@@ -1,7 +1,7 @@
- package study.chapter6.pkgEx02.ex2;
+ package study.chapter06.pkgEx02.ex2;
 
-import study.chapter6.pkgEx02.ex1.ClassB;
-import study.chapter6.pkgEx02.ex1.ClassA;
+import study.chapter06.pkgEx02.ex1.ClassA;
+import study.chapter06.pkgEx02.ex1.ClassB;
 
 public class ClassC { // default 접근 제한자 (같은 패키지만 접근 가능)
 	

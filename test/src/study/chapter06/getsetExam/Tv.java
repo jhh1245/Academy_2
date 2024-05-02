@@ -1,4 +1,4 @@
-package study.chapter6.getsetExam;
+package study.chapter06.getsetExam;
 
 public class Tv {
 	
