@@ -1,9 +1,9 @@
-package study.chapter15.ex04.mymain;
+package study._01_review.mymain;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import study.chapter15.ex04.vo.PersonVo;
+import study._01_review.vo.PersonVo;
 
 public class MyMain_Person_list {
 

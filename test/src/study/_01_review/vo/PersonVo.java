@@ -1,4 +1,4 @@
-package study.chapter15.ex04.vo;
+package study._01_review.vo;
 
 /* 
  * VO (Value Object) : 값을 저장관리 하는 객체  

@@ -1,4 +1,4 @@
-package study.review;
+package study._01_review;
 
 
 abstract class Student{
@@ -8,29 +8,7 @@ abstract class Student{
 	abstract void study() ;
 }
 
-class 초등학생 extends Student{
-	@Override
-	void study() {
-		System.out.println("초등학생은 구구단 공부");
-		
-	}
-}
 
-class 중학생 extends Student{
-	@Override
-	void study() {
-		System.out.println("중학생은 함수 공부");
-		
-	}
-}
-
-class 고등학생 extends Student{
-	@Override
-	void study() {
-		System.out.println("고등학생은 미적분 공부");
-		
-	}
-}
 
 public class AbstractExam02 {
 

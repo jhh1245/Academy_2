@@ -1,4 +1,4 @@
-package study.review;
+package study._01_review;
 
 // 1. 추상 메소드를 포함한 클래스는 반드시 추상클래스여야 한다. 
 // 2. 추상 클래스는 반드시 추상 메소드를 포함하지 않을 수 있다. 

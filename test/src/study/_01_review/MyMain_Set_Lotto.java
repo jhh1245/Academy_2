@@ -1,4 +1,4 @@
-package study.chapter15.ex04;
+package study._01_review;
 
 import java.util.Random;
 import java.util.Set;

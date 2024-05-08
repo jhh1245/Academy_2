@@ -1,4 +1,4 @@
-package study.chapter16.ex01;
+package study._03_Lambda;
 
 public class LamdaExam {
 
