@@ -1,8 +1,8 @@
-package study._06_Example;
+package study._06_Example.util;
 
 import java.util.Calendar;
 
-public class _04_Jumin {
+public class Jumin {
 	private String jumin_no;
 	
 	public String getJumin_no() {
@@ -154,9 +154,18 @@ public class _04_Jumin {
 		} 
 		if(local >= 35 && local <= 39) {
 			return "충척북도";
-		}
+		} 
+		if(local == 40) return "대전";
+		if(local >= 41 && local <= 47) return "충청남도";
+		if(local >= 48 && local <= 54) return "전라북도";
 		
+		if (local == 55 || local == 56) return "광주";
+	
+
+				
+				
 		// 그 외 생략.. 
+		
 		return "잘못입력";
 	}
 	

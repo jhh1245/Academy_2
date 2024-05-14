@@ -2,6 +2,8 @@ package study._06_Example;
 
 import java.util.Scanner;
 
+import study._06_Example.util.Jumin;
+
 public class _04_Exam {
 
 	public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class _04_Exam {
 		Scanner sc = new Scanner(System.in);
 		String jumin_no;
 		String yn = "y";
-		_04_Jumin jumin = new _04_Jumin();
+		Jumin jumin = new Jumin();
 		while(true) {
 			
 			System.out.print("주민번호 (xxxxxx-xxxxxxx) : ");
