@@ -21,7 +21,8 @@ public class _09_Exam_이차원배열_달팽이 {
 			
 			ma.setChasu(chasu);  // 차수 세팅 
 			
-			ma.make_snail(); // 마방진 만들기 
+			//ma.make_snail(); // 마방진 만들기
+			ma.make_snail2();
 			
 			ma.show_snail(); // 마방진 출력 
 			

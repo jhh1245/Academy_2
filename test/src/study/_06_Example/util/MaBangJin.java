@@ -11,11 +11,8 @@ public class MaBangJin {
 	}
 
 	public void make_mabangjin() {
-		// 마방진 채울 배열 생성 
-		ma_array = new int[chasu][chasu];
-		
-		// 시작값 
-		int row = 0, col = chasu/2;
+		ma_array = new int[chasu][chasu]; // 마방진 채울 배열 생성
+		int row = 0, col = chasu/2; // 시작 위치 
 		int su = 1;
 		
 		// 1. 첫번째 칸 값 채우기
