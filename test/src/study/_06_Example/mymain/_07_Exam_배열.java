@@ -1,4 +1,4 @@
-package study._06_Example;
+package study._06_Example.mymain;
 
 import study._06_Example.util.MyArray2;
 

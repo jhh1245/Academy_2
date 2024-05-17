@@ -68,14 +68,20 @@ public class Lotto {
 		}
 		
 		// 중복수 체크	
-		for(int i = 0; i < 5; i++) {
-			for(int j = i+1; j < 6; j++) {
-				//System.out.println("i : " + i + " j : " + j);
-				if(user_no[i] == user_no[j]) {
-					System.out.println("중복 발생");
-					return false; 
-				}	
-			}
+//		for(int i = 0; i < 5; i++) {
+//			for(int j = i+1; j < 6; j++) {
+//				//System.out.println("i : " + i + " j : " + j);
+//				if(user_no[i] == user_no[j]) {
+//					System.out.println("중복 발생");
+//					return false; 
+//				}	
+//			}
+//		}
+		
+		// 정렬이 되었다는 가정하에 
+		Arrays.sort(user_no);
+		for(int i = 0; i < user_no.length-1; i++) {
+			if(user_no[i] == user_no[i+1]) return false;
 		}
 		return true;
 	}	
@@ -92,6 +98,7 @@ public class Lotto {
 					} else {
 						count++;
 					}
+					break; // 같은수가 이미 나왔으니까 그 뒤에 수는 확인할 필요 없다. 
 				}
 			}
 		}

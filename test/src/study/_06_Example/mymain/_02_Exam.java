@@ -1,4 +1,4 @@
-package study._06_Example;
+package study._06_Example.mymain;
 
 public class _02_Exam {
 
