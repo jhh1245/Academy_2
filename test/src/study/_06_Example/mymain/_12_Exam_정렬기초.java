@@ -11,7 +11,8 @@ public class _12_Exam_정렬기초 {
 		// Ascending  : 오름차순 (소 -> 대)
 		// Descending : 내림차순 (대 -> 소)
 		
-		int [] arr = {5, 7, 3, 6, 1, 2, 8, 4, 9};
+		//int [] arr = {5, 7, 3, 6, 1, 2, 8, 4, 9};
+		int [] arr = {5, 7, 3, 6};
 		Arrays.sort(arr);
 		System.out.println("---[오름차순]---");
 		for(int su : arr) {
