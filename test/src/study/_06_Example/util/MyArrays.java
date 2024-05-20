@@ -152,7 +152,7 @@ public class MyArrays {
 	
 	// 버블 정렬 - 오름차순 (오버로딩, 시작 인덱스, 끝 인덱스) 
 	public static void bubbleSortAsc(int [] arr, int startIdx, int endIdx) {
-		for(int i = startIdx+1; i < endIdx; i++) {
+		for(int i = 1; i < endIdx; i++) {
 			for(int k = startIdx; k < endIdx-i; k++) {
 				if(arr[k] > arr[k+1]) {
 					int imsi = arr[k];
@@ -162,7 +162,7 @@ public class MyArrays {
 			}
 		}
 	}
-	
+	 
 	// 버블 정렬 - 내림 차순 
 	public static void bubbleSortDesc(int [] arr) {
 		for(int i = 1; i < arr.length; i++) {
@@ -178,7 +178,7 @@ public class MyArrays {
 
 	// 버블 정렬 - 내림차순 (오버로딩, 시작 인덱스, 끝 인덱스) 
 	public static void bubbleSortDesc(int [] arr, int startIdx, int endIdx) {
-		for(int i = startIdx+1; i < endIdx; i++) {
+		for(int i = 1; i < endIdx; i++) {
 			for(int k = startIdx; k < endIdx-i; k++) {
 				if(arr[k] < arr[k+1]) {
 					int imsi = arr[k];

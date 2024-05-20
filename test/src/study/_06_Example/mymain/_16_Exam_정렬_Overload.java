@@ -7,7 +7,7 @@ import study._06_Example.util.MyArrays;
 public class _16_Exam_정렬_Overload {
 	public static void main(String[] args) {
 		// 정렬 아무거나 해서 오버로드 하기 
-		int [] arr = {5, 7, 4, 9, 2};
+		int [] arr = {5, 7, 4, 9, 2, 1, 6, 8};
 		
 		
 		
@@ -71,7 +71,7 @@ public class _16_Exam_정렬_Overload {
 		
 //		버블정렬 오름차순! 오버로딩 메소드 활용 (시작, 끝 지정)	
 		System.out.println("\n---[버블정렬 오름차순! 오버로딩 메소드 활용(시작값, 끝값)]---");
-		MyArrays.bubbleSortAsc(arr, 2, 5);
+		MyArrays.bubbleSortAsc(arr, 3, 7);
 		for(int n : arr) {
 			System.out.printf("%3d", n);
 		}
@@ -80,7 +80,7 @@ public class _16_Exam_정렬_Overload {
 	
 //		버블정렬 내림차순! 오버로딩 메소드 활용 (시작, 끝 지정)	
 		System.out.println("\n---[버블정렬 내림차순! 오버로딩 메소드 활용(시작값, 끝값)]---");
-		MyArrays.bubbleSortDesc(arr, 1, 4);
+		MyArrays.bubbleSortDesc(arr, 3, 8);
 		for(int n : arr) {
 			System.out.printf("%3d", n);
 		}
